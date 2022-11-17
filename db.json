@@ -1,0 +1,18 @@
+{
+  "posts": [
+    {
+      "title": "vdf",
+      "body": "vdf",
+      "id": 1
+    },
+    {
+      "title": "vfd",
+      "body": "vfd",
+      "id": 2
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

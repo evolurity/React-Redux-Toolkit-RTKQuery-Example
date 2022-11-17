@@ -1,26 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import PostContainer from "./components/PostContainer";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    // const dispatch = useAppDispatch();
+    // const { users, isLoading, error } = useAppSelector(state => state.userReducer)
+    //
+    // useEffect(() => {
+    //   dispatch(fetchUsers());
+    // }, [])
+
+    return (
+        <div className="App">
+            {/*{isLoading && <h1>Loading...</h1>}*/}
+            {/*{error && <h1>Error {error}</h1>}*/}
+            {/*{JSON.stringify(users, null, 2)}*/}
+            <PostContainer/>
+        </div>
+    );
 }
 
 export default App;
